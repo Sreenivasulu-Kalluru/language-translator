@@ -66,7 +66,7 @@ function Translator() {
           <textarea
             name="from"
             className="from-text"
-            placeholder="Enter Text"
+            placeholder="Enter text to convert..."
             id="from"
             value={fromText}
             onChange={(e) => setFromText(e.target.value)}
